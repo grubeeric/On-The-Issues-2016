@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">On The Issues 2016</string>
+    <string name="title_activity_republicans">Republicans</string>
+    <string name="action_settings">How does it work?</string>
+    <string name="title_activity_democrats">Democrats</string>
+    <string name="title_activity_hillary_clinton">Hillary Clinton</string>
+    <string name="title_activity_bernie_sanders">Bernie Sanders</string>
+    <string name="title_activity_joe_biden">Joe Biden</string>
+    <string name="title_activity_martin_omalley">Martin Omalley</string>
+    <string name="title_activity_lincoln_chafee">Lincoln Chafee</string>
+    <string name="title_activity_jim_webb">Jim Webb</string>
+    <string name="donaldTrump">Donald Trump</string>
+    <string name="benCarson">Ben Carson</string>
+    <string name="carlyFiorina">Carly Fiorina</string>
+    <string name="jebBush">Jeb Bush</string>
+    <string name="marcoRubio">Marco Rubio</string>
+    <string name="randPaul">Rand Paul</string>
+    <string name="tedCruz">Ted Cruz</string>
+    <string name="johnKasich">John Kasich</string>
+    <string name="hillaryClinton">Hillary Clinton</string>
+    <string name="bernieSanders">Bernie Sanders</string>
+    <string name="joeBiden">Joe Biden</string>
+    <string name="martinOmalley">Martin O\'Malley</string>
+    <string name="lincolnChafee">Lincoln Chafee</string>
+    <string name="jimWebb">Jim Webb</string>
+    <string name="title_activity_donald_trump">DonaldTrump</string>
+    <string name="title_activity_ben_carson">BenCarson</string>
+    <string name="title_activity_carly_fiorina">CarlyFiorina</string>
+    <string name="title_activity_jeb_bush">JebBush</string>
+    <string name="title_activity_marco_rubio">MarcoRubio</string>
+    <string name="title_activity_rand_paul">RandPaul</string>
+    <string name="title_activity_ted_cruz">TedCruz</string>
+    <string name="title_activity_john_kasich">JohnKasich</string>
+    <string name="iconTransition"></string>
+    <string name="title_activity_settings">How It Works</string>
+</resources>

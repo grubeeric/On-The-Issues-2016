@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="grube.eric.com.ontheissues2016"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Republicans"
+            android:label="@string/title_activity_republicans"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Democrats"
+            android:label="@string/title_activity_democrats"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".HillaryClinton"
+            android:label="@string/title_activity_hillary_clinton"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".BernieSanders"
+            android:label="@string/title_activity_bernie_sanders"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".JoeBiden"
+            android:label="@string/title_activity_joe_biden"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".MartinOmalley"
+            android:label="@string/title_activity_martin_omalley"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".LincolnChafee"
+            android:label="@string/title_activity_lincoln_chafee"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".JimWebb"
+            android:label="@string/title_activity_jim_webb"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".DonaldTrump"
+            android:label="@string/title_activity_donald_trump"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".BenCarson"
+            android:label="@string/title_activity_ben_carson"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".CarlyFiorina"
+            android:label="@string/title_activity_carly_fiorina"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".JebBush"
+            android:label="@string/title_activity_jeb_bush"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".MarcoRubio"
+            android:label="@string/title_activity_marco_rubio"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".RandPaul"
+            android:label="@string/title_activity_rand_paul"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".TedCruz"
+            android:label="@string/title_activity_ted_cruz"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".JohnKasich"
+            android:label="@string/title_activity_john_kasich"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="grube.eric.com.ontheissues2016.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

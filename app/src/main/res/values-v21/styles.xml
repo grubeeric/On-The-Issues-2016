@@ -1,0 +1,14 @@
+<resources>>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <!--Needed for transition animations-->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowTransitionBackgroundFadeDuration">1000</item>
+        <!--Needed for transition animations-->
+
+    </style>
+</resources>
